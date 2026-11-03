@@ -85,8 +85,8 @@ Una VPN (Red privada virtual) ayuda a proteger nuestra conexión cuando utilizam
 
 ## 6. Mis tres reglas de Oro
 
-**Verificar siempre que la conexión sea HTTPS**: Antes de ingresar credenciales, observar que el certificado sea de un emisor confiable y que también corresponda al sitio web que estamos visitando.
+**Verificar siempre que la conexión sea HTTPS y modo incógnito**: Antes de ingresar credenciales, observar que el certificado sea de un emisor confiable y que también corresponda al sitio web que estamos visitando. Por otro lado utilizar modo incognito para evitar que queden rastros de nuestra navegación.
 
-**Utilizar una VPN confiable**: Cifrar el trafico utilizando una VPN para dificultar que terceros puedan interceptar y leer nuestra información.
+**Utilizar una VPN confiable**: Cifrar el trafico utilizando una VPN para dificultar que terceros puedan interceptar y leer nuestra información, activar la opción KILL SWTICH en la VPN para evitar que en caso de caída de la VPN nos redirija sin utilizarla.
 
-**Utilizar modo incógnito**: Para evitar que queden rastros de nuestra navegación.
+**Comportamiento** Evitar operaciones sensibles, ingresar datos personales y/o confidenciales.
