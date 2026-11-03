@@ -21,17 +21,12 @@ Se utilizó NeverSSL debido a que permite realizar conexiones HTTP sin cifrado T
 
 En la pestaña Network de Firefox se seleccionó la solicitud correspondiente a /online/. En el panel Headers se observaron los siguientes datos:
 
-**URL solicitada:** http://youngbrightshiningyawn.neverssl.com/online/
-
-**Método HTTP:** GET
-
-**Host:** youngbrightshiningyawn.neverssl.com
-
-**Protocolo:** HTTP/1.1
-
-**Scheme:** http
-
-**Headers enviados**:
+- **URL solicitada:** http://youngbrightshiningyawn.neverssl.com/online/
+- **Método HTTP:** GET
+- **Host:** youngbrightshiningyawn.neverssl.com
+- **Protocolo:** HTTP/1.1
+- **Scheme:** http
+- **Headers enviados**:
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0 |
 Referer: http://neverssl.com/
 Connection: keep-alive
