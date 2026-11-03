@@ -56,27 +56,24 @@ La siguiente evidencia corresponde a la solicitud HTTP mediante las herramientas
 
 Si la comunicación utiliza HTTP, una persona en la misma red podría capturar:
 
-**Headers:** información del navegador, sistema operativo, host y referer, entre otros tipos de información.
-**Paginas visitadas:** Direcciones URL y sitios que estamos utilizando.
-**Datos personales:** Información escrita en formularios.
-**Credenciales y contenido de las páginas:** En otros entregables observamos que podrían obtener nuestras credenciales y el contenido de páginas si navegamos a través de HTTP.
+- **Headers:** información del navegador, sistema operativo, host y referer, entre otros tipos de información.
+- **Paginas visitadas:** Direcciones URL y sitios que estamos utilizando.
+- **Datos personales:** Información escrita en formularios.
+- **Credenciales y contenido de las páginas:** En otros entregables observamos que podrían obtener nuestras credenciales y el contenido de páginas si navegamos a través de HTTP.
 
 **Tres escenarios de ataque:**
-**Sniffing:** Un atacante conectado a la misma red que nosotros podría utilizar herramientas como Wireshark para intentar observar las comunicaciones sin cifrado, es decir HTTP.
-**Evil Twin:** Consiste en una red Wi-Fi falsa que imita el nombre de una red legitima, por ejemplo Starbucks_libre imitaría una red de un local de Starbucks. En este caso se podría capturar información personal, redirigir al usuario a páginas falsas o robar credenciales.
-**Man in the Middle:** Es un escenario en el cual una atacante logra ubicarse entre el usuario y el servidor, obteniendo la posibilidad de interceptar la comunicación y cuando no exista cifrado, observar o modificar los datos transmitidos. Podría leer información privada, modificar páginas web, obtener credenciales y datos personales.
+- **Sniffing:** Un atacante conectado a la misma red que nosotros podría utilizar herramientas como Wireshark para intentar observar las comunicaciones sin cifrado, es decir HTTP.
+- **Evil Twin:** Consiste en una red Wi-Fi falsa que imita el nombre de una red legitima, por ejemplo Starbucks_libre imitaría una red de un local de Starbucks. En este caso se podría capturar información personal, redirigir al usuario a páginas falsas o robar credenciales.
+- **Man in the Middle:** Es un escenario en el cual una atacante logra ubicarse entre el usuario y el servidor, obteniendo la posibilidad de interceptar la comunicación y cuando no exista cifrado, observar o modificar los datos transmitidos. Podría leer información privada, modificar páginas web, obtener credenciales y datos personales.
 
 ## 5. Como nos ayuda una VPN.
 
 Una VPN (Red privada virtual) ayuda a proteger nuestra conexión cuando utilizamos una red Wi-Fi pública, cifra el tráfico y crea un túnel seguro entre nuestro dispositivo y el servidor VPN. En cambio HTTPS protege la comunicación entre el navegador y el sitio web, es decir que se complementan.
 
-**Cifrado:** La VPN convierte todos los datos en información ilegible para alguien que intente interceptarlos.
-
-**Túnel seguro:** Crea un túnel cifrado entre nuestro dispositivo y el servidor VPN, esto nos protege ya que la información viaja protegida incluso en una red Wi-Fi pública.
-
-**Protección del tráfico:** Si alguien intenta capturar nuestra conexión mediante herramientas como Wireshark, podrá ver los paquetes de datos pero el contenido debería ser ilegible dentro del túnel seguro de la VPN.
-
-**Privacidad:** Los sitios web que visitamos obtienen la dirección IP del servidor VPN en lugar de nuestra IP pública.
+- **Cifrado:** La VPN convierte todos los datos en información ilegible para alguien que intente interceptarlos.
+- **Túnel seguro:** Crea un túnel cifrado entre nuestro dispositivo y el servidor VPN, esto nos protege ya que la información viaja protegida incluso en una red Wi-Fi pública.
+- **Protección del tráfico:** Si alguien intenta capturar nuestra conexión mediante herramientas como Wireshark, podrá ver los paquetes de datos pero el contenido debería ser ilegible dentro del túnel seguro de la VPN.
+- **Privacidad:** Los sitios web que visitamos obtienen la dirección IP del servidor VPN en lugar de nuestra IP pública.
 
 ## 6. Mis tres reglas de Oro
 
