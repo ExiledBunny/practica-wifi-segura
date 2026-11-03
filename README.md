@@ -23,7 +23,7 @@ En la pestaña Network de Firefox se seleccionó la solicitud correspondiente a 
 
 **URL solicitada:** http://youngbrightshiningyawn.neverssl.com/online/
 **Método HTTP:** GET
-**Host:** quietuniquesilverlight.neverssl.com
+**Host:** youngbrightshiningyawn.neverssl.com
 **Protocolo:** HTTP/1.1
 **Scheme:** http
 **Headers enviados**:
